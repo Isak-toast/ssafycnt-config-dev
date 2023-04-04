@@ -36,8 +36,6 @@ spring:
   cloud:
     gateway:
       httpclient:
-        ssl:
-          useInsecureTrustManager: true
       routes:
         - id: ssafycnt-user-service
           uri: lb://SSAFYCNT-USER-SERVICE
