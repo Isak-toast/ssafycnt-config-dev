@@ -1,6 +1,6 @@
 server:
   # port: 443
-  port: 8000
+  port: 8001
   # ssl:
   #   enabled: true
   #   key-store-password: noinjung90!
